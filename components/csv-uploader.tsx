@@ -31,11 +31,12 @@ export default function CsvUploader() {
             complete: async (results) => {
                 const users = results.data.map((row: any) => ({
                     email: row.email,
-                    firstName: row.firstName || row.first_name, // Handle both cases
+                    firstName: row.firstName || row.first_name,
                     lastName: row.lastName || row.last_name,
                     collegeName: row.collegeName || row.college_name,
                     collegeMailId: row.collegeMailId || row.college_mail_id,
                     branch: row.branch,
+                    rollNo: row.rollNo || row.roll_no,
                 }));
 
                 try {

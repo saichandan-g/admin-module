@@ -33,8 +33,8 @@ export async function POST(request: NextRequest) {
 
                         const userId = uuidv4();
                         await client.query(
-                            `INSERT INTO users (id, email, password_hash, first_name, last_name, display_name, college_name, college_mail_id, branch, is_registered, created_at, updated_at) 
-               VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, false, NOW(), NOW())
+                            `INSERT INTO users (id, email, password_hash, first_name, last_name, display_name, college_name, college_mail_id, branch, roll_no, is_registered, created_at, updated_at) 
+               VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, false, NOW(), NOW())
                ON CONFLICT (email) DO NOTHING`,
                             [
                                 userId,
@@ -45,7 +45,8 @@ export async function POST(request: NextRequest) {
                                 `${user.firstName.trim()} ${user.lastName.trim()}`,
                                 user.collegeName?.trim() || null,
                                 user.collegeMailId?.trim() || null,
-                                user.branch?.trim() || null
+                                user.branch?.trim() || null,
+                                user.rollNo?.trim() || null
                             ]
                         );
                         results.success++;
