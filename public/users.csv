@@ -1,0 +1,5 @@
+id,name,email,role
+1,Alice Smith,alice.smith@example.com,Admin
+2,Bob Johnson,bob.johnson@example.com,User
+3,Charlie Brown,charlie.brown@example.com,Editor
+4,Diana Prince,diana.prince@example.com,User
