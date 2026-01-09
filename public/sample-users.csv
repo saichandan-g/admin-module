@@ -1,0 +1,9 @@
+email,firstName,lastName,phoneNumber,collegeName,collegeMailId,branch,rollNo
+john.doe@example.com,John,Doe,9876543210,Stanford University,john.doe@stanford.edu,Computer Science,CS2024001
+jane.smith@example.com,Jane,Smith,9876543211,MIT,jane.smith@mit.edu,Electrical Engineering,EE2024002
+alex.johnson@example.com,Alex,Johnson,9876543212,Harvard University,alex.j@harvard.edu,Data Science,DS2024003
+priya.kumar@example.com,Priya,Kumar,9876543213,IIT Delhi,priya.k@iitd.edu,Mechanical,ME2024004
+david.williams@example.com,David,Williams,9876543214,UC Berkeley,david.w@berkeley.edu,Civil Engineering,CE2024005
+emma.brown@example.com,Emma,Brown,9876543215,Princeton,emma.b@princeton.edu,Computer Science,CS2024006
+raj.patel@example.com,Raj,Patel,9876543216,Georgia Tech,raj.p@gatech.edu,Aerospace,AE2024007
+sophia.garcia@example.com,Sophia,Garcia,9876543217,UCLA,sophia.g@ucla.edu,Biomedical,BM2024008

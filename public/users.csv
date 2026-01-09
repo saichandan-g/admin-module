@@ -1,5 +1,5 @@
-id,name,email,role
-1,Alice Smith,alice.smith@example.com,Admin
-2,Bob Johnson,bob.johnson@example.com,User
-3,Charlie Brown,charlie.brown@example.com,Editor
-4,Diana Prince,diana.prince@example.com,User
+email,firstName,lastName,phoneNumber,collegeName,collegeMailId,branch,rollNo
+alice.smith@example.com,Alice,Smith,9876543220,XYZ College,alice.smith@xyz.edu,CS,CS001
+bob.johnson@example.com,Bob,Johnson,9876543221,ABC University,bob.j@abc.edu,EE,EE002
+charlie.brown@example.com,Charlie,Brown,9876543222,MNO Institute,charlie.b@mno.edu,ME,ME003
+diana.prince@example.com,Diana,Prince,9876543223,PQR College,diana.p@pqr.edu,IT,IT004
